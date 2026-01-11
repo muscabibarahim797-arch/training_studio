@@ -237,3 +237,261 @@ body {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .programs-grid {
+    gap: 34px 34px;
+  }
+
+  .classes-wrap {
+    grid-template-columns: 320px 1fr;
+    gap: 34px;
+  }
+
+  .classes-image img {
+    height: 320px;
+  }
+
+  .schedule {
+    padding: 95px 0;
+  }
+
+  .schedule-title {
+    font-size: 30px;
+  }
+
+  .trainers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: inline-block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .main-nav {
+    position: relative;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .cta-banner {
+    padding: 80px 0;
+  }
+
+  .cta-banner__title {
+    font-size: 30px;
+  }
+
+  .cta-banner__text {
+    font-size: 13px;
+  }
+
+  .programs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .classes {
+    padding: 70px 0;
+  }
+
+  .classes-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .classes-tabs {
+    order: 2;
+  }
+
+  .classes-panel {
+    order: 1;
+  }
+
+  .classes-image img {
+    height: 280px;
+  }
+
+  .schedule {
+    padding: 80px 0;
+  }
+
+  .schedule-title {
+    font-size: 26px;
+  }
+
+  .schedule-subtitle {
+    font-size: 13px;
+  }
+
+  .schedule-tableWrap {
+    max-width: 100%;
+  }
+
+  .trainers {
+    padding: 70px 0;
+  }
+
+  .trainers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trainer-card {
+    padding: 22px;
+  }
+
+  .trainer-img img {
+    height: 220px;
+  }
+    .contact-grid{
+    grid-template-columns: 1fr;
+  }
+  .contact-map{
+    min-height: 420px;
+  }
+  .contact-right{
+    min-height: 520px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .programs {
+    padding: 70px 0;
+  }
+
+  .cta-banner {
+    padding: 68px 0;
+  }
+
+  .cta-banner__title {
+    font-size: 24px;
+  }
+
+  .cta-banner__btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .classes-title {
+    font-size: 26px;
+  }
+
+  .classes-tab {
+    padding: 18px 18px;
+  }
+
+  .classes-image img {
+    height: 220px;
+  }
+
+  .classes-all {
+    width: 100%;
+  }
+
+  .schedule {
+    padding: 68px 0;
+  }
+
+  .schedule-days {
+    gap: 8px;
+  }
+
+  .trainers-title {
+    font-size: 26px;
+  }
+    .contact-formCard{
+    padding: 22px 18px;
+  }
+  .contact-row{
+    grid-template-columns: 1fr;
+  }
+  .contact-btn{
+    width: 100%;
+    justify-self: stretch;
+  }
+}
+
+
