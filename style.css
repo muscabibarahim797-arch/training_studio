@@ -938,6 +938,28 @@ body {
   background: #232d39;
 }
 
+.footer{
+  padding: 26px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.footer p{
+  margin: 0;
+  font-size: 13px;
+  color: #232d39;
+}
+
+.footer a{
+  color: #ee664e;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+
 
 
 
